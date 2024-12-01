@@ -1,0 +1,35 @@
+[
+  {
+    "key": "Server",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "Glpi Server IP",
+      "placeholder": "",
+      "description": "The IP address of the GLPI Server",
+      "required": true
+    }
+  },
+  {
+    "key": "UserToken",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "The GLPI user Tocken",
+      "type": "password",
+      "placeholder": "",
+      "required": false
+    }
+  },
+  {
+    "key": "AppToken",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "The GLPI App Tocken",
+      "type": "password",
+      "placeholder": "",
+      "required": false
+    }
+  }
+]
