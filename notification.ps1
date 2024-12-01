@@ -3,6 +3,12 @@
 # Version: 1.0.0 | new-powershell-connector
 #####################################################
 
+# Get Variables from configuration
+$Server = $actionContext.Configuration.Server
+$AppToken = $actionContext.Configuration.AppToken
+$UserToken = $actionContext.Configuration.UserToken
+$User = $personContext.Person.DisplayName
+
 # Set to true at start, because only when an error occurs it is set to false
 $outputContext.Success = $true
 
